@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --https --ssl-cert localhost.pem --ssl-key localhost-key.pem",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.6"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.6.7",
+    "@heroicons/vue": "^1.0.6",
+    "@nuxtjs/tailwindcss": "^5.3.1",
+    "@storyblok/nuxt": "^4.1.0",
+    "@tailwindcss/forms": "^0.5.2",
+    "@vueuse/core": "^9.1.0",
+    "axios": "^0.27.2"
+  },
+  "name": "reverence-2022-website",
+  "version": "1.0.0",
+  "description": "Nuxt Website for Reverence Studios",
+  "main": "index.js",
+  "author": "Seth Kline",
+  "license": "MIT"
+}

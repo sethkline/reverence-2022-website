@@ -1,0 +1,8 @@
+<template>
+  <StoryblokComponent v-if="story" :blok="story.content" />
+</template>
+
+<script setup lang="ts">
+const story = await useStoryblok('/', { version: 'draft' })
+
+</script>
